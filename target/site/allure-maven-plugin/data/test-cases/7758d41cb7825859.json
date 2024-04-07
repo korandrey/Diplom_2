@@ -1,0 +1,84 @@
+{
+  "uid" : "7758d41cb7825859",
+  "name" : "Создание валидного заказа без авторизации",
+  "fullName" : "orderTests.OrderCreateTest.orderCanBeCreateWithoutAuthorization",
+  "historyId" : "bc73e75dc7042ee8e19cc4291c0df6bd",
+  "time" : {
+    "start" : 1712488697163,
+    "stop" : 1712488697527,
+    "duration" : 364
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать заказ неавторизованным пользователем",
+      "time" : {
+        "start" : 1712488697188,
+        "stop" : 1712488697527,
+        "duration" : 339
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "Order(ingredients=[61c0c5a71d1f82001bdaaa72, 61c0c5a71d1f82001bdaaa6e, 61c0c5a71d1f82001bdaaa73])"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "orderTests"
+  }, {
+    "name" : "testClass",
+    "value" : "orderTests.OrderCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderCanBeCreateWithoutAuthorization"
+  }, {
+    "name" : "suite",
+    "value" : "orderTests.OrderCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "Andrey"
+  }, {
+    "name" : "thread",
+    "value" : "23312@Andrey.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7758d41cb7825859.json",
+  "parameterValues" : [ ]
+}

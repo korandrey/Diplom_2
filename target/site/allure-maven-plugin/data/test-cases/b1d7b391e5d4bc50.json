@@ -1,0 +1,120 @@
+{
+  "uid" : "b1d7b391e5d4bc50",
+  "name" : "Авторизация пользователя с неправильными параметрами",
+  "fullName" : "praktikum.userTests.UserLoginInvalidTest.userAuthorizationWithIncorrectParameters[1]",
+  "historyId" : "5080fcfdb855f0294574b27dfee16a95",
+  "time" : {
+    "start" : 1712488714505,
+    "stop" : 1712488715669,
+    "duration" : 1164
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя",
+      "time" : {
+        "start" : 1712488714505,
+        "stop" : 1712488714874,
+        "duration" : 369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=ettie.waelchi@yahoo.com, password=u4yi58, name=Elisha)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1712488714883,
+        "stop" : 1712488715175,
+        "duration" : 292
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=test, password=u4yi58, name=Elisha)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удалить пользователя",
+      "time" : {
+        "start" : 1712488715185,
+        "stop" : 1712488715668,
+        "duration" : 483
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MTI4MTBiOWVkMjgwMDAxYjNkZjRjNiIsImlhdCI6MTcxMjQ4ODcxNSwiZXhwIjoxNzEyNDg5OTE1fQ.g_kyrofTQa3NnUE9_cKrEbNzrhUt4_Wb80YsjRUP4eA"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "praktikum.userTests"
+  }, {
+    "name" : "testClass",
+    "value" : "praktikum.userTests.UserLoginInvalidTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userAuthorizationWithIncorrectParameters[1]"
+  }, {
+    "name" : "suite",
+    "value" : "praktikum.userTests.UserLoginInvalidTest"
+  }, {
+    "name" : "host",
+    "value" : "Andrey"
+  }, {
+    "name" : "thread",
+    "value" : "23312@Andrey.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1d7b391e5d4bc50.json",
+  "parameterValues" : [ ]
+}

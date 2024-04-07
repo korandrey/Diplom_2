@@ -1,0 +1,141 @@
+{
+  "uid" : "41fae660dccc2b0c",
+  "name" : "Изменение данных пользователя авторизованным пользователем",
+  "fullName" : "praktikum.userTests.UserChangeTest.changingUserDataByAnAuthorizedUser[1]",
+  "historyId" : "4f12d111d5347ac19c9702e2b7e00899",
+  "time" : {
+    "start" : 1712488706153,
+    "stop" : 1712488707730,
+    "duration" : 1577
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя",
+      "time" : {
+        "start" : 1712488706153,
+        "stop" : 1712488706524,
+        "duration" : 371
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=terisa.ruecker@hotmail.com, password=3qycbjy, name=Alexandra)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Изменение данных пользователя",
+      "time" : {
+        "start" : 1712488706533,
+        "stop" : 1712488706890,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=terisa.ruecker@hotmail.com, password=testoviyparol, name=Alexandra)"
+      }, {
+        "name" : "accessToken",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MTI4MTAzOWVkMjgwMDAxYjNkZjRiOCIsImlhdCI6MTcxMjQ4ODcwNywiZXhwIjoxNzEyNDg5OTA3fQ.hWQqrWPwav76wU16KW1l1SfZO9aP0xyxqkRKayNsNuw"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1712488706890,
+        "stop" : 1712488707253,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=terisa.ruecker@hotmail.com, password=testoviyparol, name=Alexandra)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удалить пользователя",
+      "time" : {
+        "start" : 1712488707253,
+        "stop" : 1712488707729,
+        "duration" : 476
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MTI4MTAzOWVkMjgwMDAxYjNkZjRiOCIsImlhdCI6MTcxMjQ4ODcwNywiZXhwIjoxNzEyNDg5OTA3fQ.hWQqrWPwav76wU16KW1l1SfZO9aP0xyxqkRKayNsNuw"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "praktikum.userTests"
+  }, {
+    "name" : "testClass",
+    "value" : "praktikum.userTests.UserChangeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "changingUserDataByAnAuthorizedUser[1]"
+  }, {
+    "name" : "suite",
+    "value" : "praktikum.userTests.UserChangeTest"
+  }, {
+    "name" : "host",
+    "value" : "Andrey"
+  }, {
+    "name" : "thread",
+    "value" : "23312@Andrey.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41fae660dccc2b0c.json",
+  "parameterValues" : [ ]
+}
