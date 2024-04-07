@@ -1,0 +1,84 @@
+{
+  "uid" : "bf759d0f25d823be",
+  "name" : "Создание заказа без ингредиентов",
+  "fullName" : "orderTests.OrderCreateInvalidTest.creationOrderWithoutIngredients",
+  "historyId" : "b2639dd9b4686129f2176225e42ed695",
+  "time" : {
+    "start" : 1712488691746,
+    "stop" : 1712488694485,
+    "duration" : 2739
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать заказ неавторизованным пользователем",
+      "time" : {
+        "start" : 1712488691778,
+        "stop" : 1712488694448,
+        "duration" : 2670
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "Order(ingredients=null)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "orderTests"
+  }, {
+    "name" : "testClass",
+    "value" : "orderTests.OrderCreateInvalidTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "creationOrderWithoutIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "orderTests.OrderCreateInvalidTest"
+  }, {
+    "name" : "host",
+    "value" : "Andrey"
+  }, {
+    "name" : "thread",
+    "value" : "23312@Andrey.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf759d0f25d823be.json",
+  "parameterValues" : [ ]
+}

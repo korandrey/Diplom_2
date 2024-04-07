@@ -1,10 +1,14 @@
-package praktikum;
+package praktikum.userTests;
 
-import io.qameta.allure.Feature;
+
+import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import praktikum.DataGeneration;
+import praktikum.User;
+import praktikum.UserActions;
 
 public class UserLoginTest {
     private UserActions userActions;
@@ -23,7 +27,7 @@ public class UserLoginTest {
     }
 
     @Test
-    @Feature("Авторизация валидного пользователя")
+    @DisplayName("Авторизация валидного пользователя")
     public void userAuthorization() {
         user = DataGeneration.generatingDataToCreateValidUser();
         ValidatableResponse response = userActions.create(user);

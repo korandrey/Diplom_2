@@ -1,12 +1,16 @@
-package praktikum;
+package praktikum.userTests;
 
-import io.qameta.allure.Feature;
+
+import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import praktikum.DataGeneration;
+import praktikum.User;
+import praktikum.UserActions;
 
 @RunWith(Parameterized.class)
 public class UserChangeTest {
@@ -47,7 +51,7 @@ public class UserChangeTest {
     }
 
     @Test
-    @Feature("Изменение данных пользователя авторизованным пользователем")
+    @DisplayName("Изменение данных пользователя авторизованным пользователем")
     public void changingUserDataByAnAuthorizedUser() {
         //создаем юзера
         ValidatableResponse response = userActions.create(user);
@@ -68,7 +72,7 @@ public class UserChangeTest {
     }
 
     @Test
-    @Feature("Изменение данных пользователя неавторизованным пользователем")
+    @DisplayName("Изменение данных пользователя неавторизованным пользователем")
     public void changingUserDataByAnUnauthorizedUser() {
         //создаем юзера
         ValidatableResponse response = userActions.create(user);

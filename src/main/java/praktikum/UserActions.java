@@ -40,11 +40,11 @@ public class UserActions extends Rest {
     }
 
     @Step("Изменение данных пользователя")
-    public ValidatableResponse change(User user,String accessToken) {
+    public ValidatableResponse change(User user, String accessToken) {
         return given()
                 .spec(getSpec())
                 .auth().oauth2(accessToken)
-                .body(user).log().body()
+                .body(user)
                 .when()
                 .patch(CHANGE_USER_PATH)
                 .then();

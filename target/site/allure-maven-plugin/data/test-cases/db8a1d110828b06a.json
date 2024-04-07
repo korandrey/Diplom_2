@@ -1,0 +1,120 @@
+{
+  "uid" : "db8a1d110828b06a",
+  "name" : "Авторизация валидного пользователя",
+  "fullName" : "praktikum.userTests.UserLoginTest.userAuthorization",
+  "historyId" : "c44d6d24f186b7dbd981387ea3148627",
+  "time" : {
+    "start" : 1712488715671,
+    "stop" : 1712488716925,
+    "duration" : 1254
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя",
+      "time" : {
+        "start" : 1712488715688,
+        "stop" : 1712488716036,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=leif.gerlach@gmail.com, password=c5v4hd, name=Keva)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1712488716045,
+        "stop" : 1712488716385,
+        "duration" : 340
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=leif.gerlach@gmail.com, password=c5v4hd, name=Keva)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удалить пользователя",
+      "time" : {
+        "start" : 1712488716385,
+        "stop" : 1712488716925,
+        "duration" : 540
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MTI4MTBjOWVkMjgwMDAxYjNkZjRjOCIsImlhdCI6MTcxMjQ4ODcxNiwiZXhwIjoxNzEyNDg5OTE2fQ.VFWRg9mrT-MJeLT1IYU4n4mpSP17G8T0ao8e5okrXJo"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "praktikum.userTests"
+  }, {
+    "name" : "testClass",
+    "value" : "praktikum.userTests.UserLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userAuthorization"
+  }, {
+    "name" : "suite",
+    "value" : "praktikum.userTests.UserLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Andrey"
+  }, {
+    "name" : "thread",
+    "value" : "23312@Andrey.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db8a1d110828b06a.json",
+  "parameterValues" : [ ]
+}

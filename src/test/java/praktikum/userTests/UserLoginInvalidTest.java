@@ -1,6 +1,7 @@
-package praktikum;
+package praktikum.userTests;
 
-import io.qameta.allure.Feature;
+
+import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Assert;
@@ -8,6 +9,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import praktikum.DataGeneration;
+import praktikum.User;
+import praktikum.UserActions;
 
 @RunWith(Parameterized.class)
 public class UserLoginInvalidTest {
@@ -49,7 +53,7 @@ public class UserLoginInvalidTest {
     }
 
     @Test
-    @Feature("Авторизация пользователя с неправильными параметрами")
+    @DisplayName("Авторизация пользователя с неправильными параметрами")
     public void userAuthorizationWithIncorrectParameters() {
         ValidatableResponse response = userActions.create(user);
         response.assertThat().statusCode(200);

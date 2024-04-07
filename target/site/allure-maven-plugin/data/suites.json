@@ -1,0 +1,297 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "orderTests.OrderCreateInvalidTest",
+    "children" : [ {
+      "name" : "Создание заказа без ингредиентов",
+      "uid" : "bf759d0f25d823be",
+      "parentUid" : "e5b770dc0c469e5105b02e9021d4f1cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488691746,
+        "stop" : 1712488694485,
+        "duration" : 2739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа c неверным хешем ингредиентов",
+      "uid" : "74a92d9f69e69c1f",
+      "parentUid" : "e5b770dc0c469e5105b02e9021d4f1cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488694541,
+        "stop" : 1712488694913,
+        "duration" : 372
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e5b770dc0c469e5105b02e9021d4f1cf"
+  }, {
+    "name" : "orderTests.OrderCreateTest",
+    "children" : [ {
+      "name" : "Создание валидного заказа с авторизацией",
+      "uid" : "54b34f0503c48faf",
+      "parentUid" : "33b28a0937bc1281b23e7a7138377bfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488694924,
+        "stop" : 1712488697160,
+        "duration" : 2236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание валидного заказа без авторизации",
+      "uid" : "7758d41cb7825859",
+      "parentUid" : "33b28a0937bc1281b23e7a7138377bfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488697163,
+        "stop" : 1712488697527,
+        "duration" : 364
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "33b28a0937bc1281b23e7a7138377bfc"
+  }, {
+    "name" : "orderTests.OrderGetTest",
+    "children" : [ {
+      "name" : "Получить заказ, когда пользователь неавторизован",
+      "uid" : "55f2b05d7d0ae1c8",
+      "parentUid" : "7e0385225b3a822afa53612317ae81bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488697530,
+        "stop" : 1712488699890,
+        "duration" : 2360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Получить заказ, когда пользователь авторизован",
+      "uid" : "7c19816217a691b3",
+      "parentUid" : "7e0385225b3a822afa53612317ae81bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488699892,
+        "stop" : 1712488702069,
+        "duration" : 2177
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7e0385225b3a822afa53612317ae81bd"
+  }, {
+    "name" : "praktikum.userTests.UserChangeTest",
+    "children" : [ {
+      "name" : "Изменение данных пользователя неавторизованным пользователем",
+      "uid" : "a10cc6c5e4375131",
+      "parentUid" : "7a795eb7a931919409490ff5f1147851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488702087,
+        "stop" : 1712488703318,
+        "duration" : 1231
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Изменение данных пользователя авторизованным пользователем",
+      "uid" : "866529987ce9a36f",
+      "parentUid" : "7a795eb7a931919409490ff5f1147851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488703321,
+        "stop" : 1712488704938,
+        "duration" : 1617
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Изменение данных пользователя неавторизованным пользователем",
+      "uid" : "8e8bdc5b18454d77",
+      "parentUid" : "7a795eb7a931919409490ff5f1147851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488704940,
+        "stop" : 1712488706151,
+        "duration" : 1211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Изменение данных пользователя авторизованным пользователем",
+      "uid" : "41fae660dccc2b0c",
+      "parentUid" : "7a795eb7a931919409490ff5f1147851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488706153,
+        "stop" : 1712488707730,
+        "duration" : 1577
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Изменение данных пользователя неавторизованным пользователем",
+      "uid" : "b858a75a2b58e946",
+      "parentUid" : "7a795eb7a931919409490ff5f1147851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488707731,
+        "stop" : 1712488708873,
+        "duration" : 1142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Изменение данных пользователя авторизованным пользователем",
+      "uid" : "7541cfea941572d",
+      "parentUid" : "7a795eb7a931919409490ff5f1147851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488708876,
+        "stop" : 1712488710445,
+        "duration" : 1569
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7a795eb7a931919409490ff5f1147851"
+  }, {
+    "name" : "praktikum.userTests.UserCreateInvalidTest",
+    "children" : [ {
+      "name" : "Создание пользователя без обязательного параметра",
+      "uid" : "1501db43a8c61fe4",
+      "parentUid" : "e8c662d55e11453e8ba31773c4f8b739",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488710448,
+        "stop" : 1712488710735,
+        "duration" : 287
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя без обязательного параметра",
+      "uid" : "1279483b685affe5",
+      "parentUid" : "e8c662d55e11453e8ba31773c4f8b739",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488710737,
+        "stop" : 1712488711017,
+        "duration" : 280
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя без обязательного параметра",
+      "uid" : "cbd073401b714ab0",
+      "parentUid" : "e8c662d55e11453e8ba31773c4f8b739",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488711019,
+        "stop" : 1712488711320,
+        "duration" : 301
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e8c662d55e11453e8ba31773c4f8b739"
+  }, {
+    "name" : "praktikum.userTests.UserCreateTest",
+    "children" : [ {
+      "name" : "Создание двух одинаковых пользователей",
+      "uid" : "97196064bbd03e87",
+      "parentUid" : "3622a747f07ff1275056eb675db46414",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488711323,
+        "stop" : 1712488712463,
+        "duration" : 1140
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание и проверка валидного пользователя",
+      "uid" : "cb230226bd1c769c",
+      "parentUid" : "3622a747f07ff1275056eb675db46414",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488712468,
+        "stop" : 1712488713291,
+        "duration" : 823
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3622a747f07ff1275056eb675db46414"
+  }, {
+    "name" : "praktikum.userTests.UserLoginInvalidTest",
+    "children" : [ {
+      "name" : "Авторизация пользователя с неправильными параметрами",
+      "uid" : "5bda3f80eaee608a",
+      "parentUid" : "37d67eac04f423549fbdfb64f0859b78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488713304,
+        "stop" : 1712488714503,
+        "duration" : 1199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация пользователя с неправильными параметрами",
+      "uid" : "b1d7b391e5d4bc50",
+      "parentUid" : "37d67eac04f423549fbdfb64f0859b78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488714505,
+        "stop" : 1712488715669,
+        "duration" : 1164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "37d67eac04f423549fbdfb64f0859b78"
+  }, {
+    "name" : "praktikum.userTests.UserLoginTest",
+    "children" : [ {
+      "name" : "Авторизация валидного пользователя",
+      "uid" : "db8a1d110828b06a",
+      "parentUid" : "d48c4def2260e33f5437e8f1919c091f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712488715671,
+        "stop" : 1712488716925,
+        "duration" : 1254
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d48c4def2260e33f5437e8f1919c091f"
+  } ],
+  "name" : "suites"
+}

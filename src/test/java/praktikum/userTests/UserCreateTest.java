@@ -1,10 +1,14 @@
-package praktikum;
+package praktikum.userTests;
 
-import io.qameta.allure.Feature;
+
+import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import praktikum.DataGeneration;
+import praktikum.User;
+import praktikum.UserActions;
 
 public class UserCreateTest {
     private UserActions userActions;
@@ -23,9 +27,8 @@ public class UserCreateTest {
     }
 
     @Test
-    @Feature("Создание и проверка валидного пользователя")
+    @DisplayName("Создание и проверка валидного пользователя")
     public void userCanBeCreate() {
-        user = DataGeneration.generatingDataToCreateValidUser();
         ValidatableResponse response = userActions.create(user);
         response.assertThat().statusCode(200);
         token = response.extract().path("accessToken");
@@ -35,9 +38,8 @@ public class UserCreateTest {
     }
 
     @Test
-    @Feature("Создание двух одинаковых пользователей")
+    @DisplayName("Создание двух одинаковых пользователей")
     public void duplicateUserCannotBeCreated() {
-        user = DataGeneration.generatingDataToCreateValidUser();
         ValidatableResponse response = userActions.create(user);
         response.assertThat().statusCode(200);
         token = response.extract().path("accessToken");

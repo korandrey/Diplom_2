@@ -1,12 +1,15 @@
-package praktikum;
+package praktikum.userTests;
 
-import io.qameta.allure.Feature;
+
+import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import praktikum.User;
+import praktikum.UserActions;
 
 @RunWith(Parameterized.class)
 public class UserCreateInvalidTest {
@@ -40,7 +43,7 @@ public class UserCreateInvalidTest {
     }
 
     @Test
-    @Feature("Создание пользователя без обязательного параметра")
+    @DisplayName("Создание пользователя без обязательного параметра")
     public void creatingUserWithoutRequiredParameter() {
         ValidatableResponse response = userActions.create(new User(email, password,name));
         response.assertThat().statusCode(statusCode);
